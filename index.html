@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Perfil</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap5/css/bootstrap.min.css">
 	<style>
 		*{
 			color: white;
@@ -64,7 +64,6 @@
         .container{
         	background: transparent;
         	margin-top: 20px;
-        	height: 550px;
         }
         .cuadrado{
         	margin-left: 50px;
@@ -78,22 +77,59 @@
         	top: 140px;
         	left: -100px;
         }
+        .ugrid{
+        	background-color: lightcoral;
+        	position: relative;
+        	width: 150px;
+        	color: black;
+
+        }
+        .columnash{
+        	background-color: lightgreen;
+        	position: relative;
+        	width: 180px;
+        	color: black;
+        }
+        .columnasv{
+        	background-color: lightblue;
+        	position: relative;
+        	width: 160px;
+        	color: black;
+        }
+        .grid{
+        	background: lightseagreen;
+        	position: relative;
+        	color: black;
+        }
+        .gga{
+        	background-color: transparent;
+        	margin-top: 15px;
+        	margin-bottom: 15px;
+        	position: absolute;
+        	width: auto;
+        	left: 27%;
+        	text-align: center;
+        }
+        .row{
+        	display: flex;
+        	flex-wrap: nowrap;
+        }
 	</style>
 </head>
 <body>
 	<div class="arriba">
-		<img class="imgusu" src="GAGV_Catalogo/blank-profile-picture-973460_960_720.webp">
+		<img class="imgusu" src="blank-profile-picture-973460_960_720.webp">
 		<div class="usutxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <div><a href="https://www.facebook.com/profile.php?id=100086762167161" target="_blank"><img class="face" src="GAGV_Catalogo/face.png"></a></div></div>
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <div><a href="https://www.facebook.com/profile.php?id=100086762167161" target="_blank"><img class="face" src="face.png"></a></div></div>
 	</div>
 	<div class="container">
 		<div class="row aling-items-start">
 			<div class="cuadrado">
-				<img src="GAGV_Catalogo/images.jfif" alt="">
+				<img src="images.jfif" alt="">
 					<div class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -103,7 +139,7 @@
 					</div>
 			</div>
 			<div class="cuadrado">
-				<img src="GAGV_Catalogo/images.jfif" alt="">
+				<img src="images.jfif" alt="">
 					<div class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -112,7 +148,7 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 			</div>
 			<div class="cuadrado">
-				<img src="GAGV_Catalogo/images.jfif" alt="">
+				<img src="images.jfif" alt="">
 					<div class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -123,7 +159,7 @@
 		</div>
 		<div class="row aling-items-start">
 			<div class="cuadrado">
-				<img src="GAGV_Catalogo/images.jfif" alt="">
+				<img src="images.jfif" alt="">
 					<div class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -133,7 +169,7 @@
 					</div>
 			</div>
 			<div class="cuadrado">
-				<img src="GAGV_Catalogo/images.jfif" alt="">
+				<img src="images.jfif" alt="">
 					<div class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -142,7 +178,7 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 			</div>
 			<div class="cuadrado">
-				<img src="GAGV_Catalogo/images.jfif" alt="">
+				<img src="images.jfif" alt="">
 					<div class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -150,6 +186,12 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 			</div>
+		</div>
+		<div class="gga row aling-items-center">
+			<div class="columnas col order-4 order-md-1 order-lg-3"><a href="../Utilidades_GRID/index.html" target="_blank"><button class="ugrid">Utilidades de GRID</button></a></div>
+			<div class="columnas col order-3 order-md-2 order-lg-4"><a href="../Columnas/columnas_horizontales.html" target="_blank"><button class="columnash">Columnas Horizontales</button></a></div>
+			<div class="columnas col order-2 order-md-3 order-lg-1"><a href="../Columnas/columnas_verticales.html" target= "_blank"><button class="columnasv">Columnas Verticales</button></a></div>
+			<div class="columnas col order-1 order-md-4 order-lg-2"><a href="../Grid/Grid.html" target="_blank"><button class="grid">GRID</button></a></div>
 		</div>
 	</div>
 </body>
